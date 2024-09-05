@@ -31,6 +31,6 @@ jobs:
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         with:
-          charts_dir: deploy/helm/hello-kubernetes
+          charts_dir: deploy/helm
           pages_branch: gh-pages
           packages_with_index: true
