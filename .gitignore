@@ -1,3 +1,31 @@
 # Dependency directories and files
 node_modules/
 package-lock.json
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*.pyc
+*.bak
+*.tdy
+*.py[cod]
+**/__pycache__
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# IDE
+.idea
+.vscode
